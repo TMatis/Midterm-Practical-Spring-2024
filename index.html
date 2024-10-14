@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogs!</title>
+    <script src="Dogs.js" defer></script>
+    <!-- <link rel="stylesheet" href="Dogs.css">    -->
+</head>
+<body>
+    <div class="wrapper"></div>
+        <p class="EternalInfo"></p>
+        <div class="EternalList"></div>
+
+        <div class="CRUD">
+            <label for="EnterCRUD">What would you like to do?</label>
+            <p>
+                <ol>
+                    <li>Add Dog - C</li>
+                    <li>Find Details - R</li>
+                    <li>Update details - U</li>
+                    <li>Remove Dog - D</li>
+                </ol>
+            </p>
+            <input type="text" id="CRUD_Dogs_ID" name="CRUD_Dogs_ID" maxlength="4" size="4"></input>
+            <button onclick="CRUD_Dogs()">Submit action!</button>
+            <p class="DogInfo"></p>
+        </div>
+
+        <div class="DogsAvaiable"></div>
+        <div class="DogsList">
+            <label for="Dogs_list">Dogs avaiable: </label>
+            <p class="DogsListed"></p>
+        </div>
+    </div>
+
+</body>
+</html>
